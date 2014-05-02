@@ -4,22 +4,156 @@ Tags: Go, Golang, Baby Gophers
 
 Alê Borba
 Community Manager, Google
-aleborba@google.com
+borba@google.com
 http://google.com/+AleBorba
 @ale_borba
 
+http://plus.google.com/+DesenvolvedoresGoogle
+http://codigo-google.blogspot.com.br
+
 * Agenda
 
+- História
+- Hello World
+- Command Line
+- Web
+- Tools
+- Refs
+
+.image assets/agenda.jpg
+
 * História
+
+*2009*
+
+- Lançada como Open Source
+- Mantida pelo Google (Go Team)
+- Foco em programadores C/C++ e Java
+
+*2010*
+
+- Adoção por parte de outros programadores...
+- ...começam a surgir grandes projetos
+
+.image assets/gopher.png
+
+* o tempo passa...
+
+* História
+
+*2014*
+
+.image assets/grafico.png 450 800
+
+* Talk is cheap! Show me the code!
 
 * Hello World
 
 .play scripts/hello.go
+.image assets/gopher.png
+
+* Estrutura de diretórios
+
+  bin/
+    streak                         # command executable
+    todo                           # command executable
+  pkg/
+    linux_amd64/
+       github.com/nf/todo/
+            task.a                 # package object
+  src/
+    github.com/nf/
+        todo/
+            .git/                  # git repository metadata
+            task/
+                task.go            # package source
+            todo.go                # command source
+
+.image assets/gopher.png
+
+* Estrutura de Package
+
+.code scripts/postmon.go /START_1 OMIT/,/END_1 OMIT/ HLpackage
+
+- Todos os arquivos do pacote devem usar o mesmo package _name_
+- O nome não precisa ser unico, apenas o _import_path_ precisa ser
+- Por convensão o nome do pacote é o último elemento do _import_path_
+
+.image assets/gopher.png
+
+* Estrutura de Package
+
+.code scripts/postmon.go /START_2 OMIT/,/END_2 OMIT/ HLpack
+
+* Estrutura de testes unitários
+
+.code scripts/postmon_test.go /START_1 OMIT/,/END_1 OMIT/ HLtest
+.code scripts/postmon_test.go /START_2 OMIT/,/END_2 OMIT/ HLtest
+.image assets/gopher.png
+
+* Estrutura de documentação
+
+.code scripts/doc.go /START_1 OMIT/,/END_1 OMIT/ HLdoc
+.code scripts/doc.go /START_2 OMIT/,/END_2 OMIT/ HLdoc
+.image assets/gopher.png
 
 * Command Line
 
-* Web Server
+.play scripts/cmd_sample.go /START OMIT/,/END OMIT/ HLcmd
+
+- Rodar um _go_build_ para testar a compilação
+- Rodar um _go_install_ para instalar o pacote
+.image assets/gopher.png
+
+* Web
+
+.code scripts/martiniSampleApp.go /START_1 OMIT/,/END_1 OMIT/ HLmartini
+.image assets/gopher.png
+
+* Web
+
+.code scripts/martiniSampleApp.go /START_2 OMIT/,/END_2 OMIT/ HLmartini
+.image assets/gopher.png
 
 * Tools
 
+- *go*build*
+Compila todos os pacotes e dependencias, sem instalar.
+
+- *go*install*
+Compila e instala pacotes e dependencias.
+
+- *go*get*
+Faz o download e instala pacotes e dependecias.
+
+- *go*test*
+Roda a suite de testes.
+
+- *go*run*
+Compila e roda um programa em Go
+
+* Tools
+
+- *godoc*
+GoDoc é vida!
+  
+  godoc -http=:8080
+
+- *gofmt* 
+Varre todos os arquivos .go e refatora para o padrão da linguagem.
+
+- *goimports*
+Faz um update dos seus imports. Adiciona os que ainda não existem e tira os que não estão sendo usados.
+
+- *errcheck*
+Verifica por erros não detectados por você no seu código.
+
 * Refs
+
+- _golang.org_
+- _godoc.org_
+- _gopheracademy.com_
+- _goinggo.net_
+- _golang-book.com_
+
+.image assets/gopher.png
