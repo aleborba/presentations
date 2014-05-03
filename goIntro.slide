@@ -17,6 +17,7 @@ http://codigo-google.blogspot.com.br
 - Hello World
 - Command Line
 - Web
+- Hardware
 - Tools
 - Refs
 
@@ -115,6 +116,15 @@ http://codigo-google.blogspot.com.br
 .code scripts/martiniSampleApp.go /START_2 OMIT/,/END_2 OMIT/ HLmartini
 .image assets/gopher.png
 
+* Hardware
+
+.code scripts/leapgo.go /START_1 OMIT/,/END_1 OMIT/ HLleap
+.image assets/gopher.png
+
+* Hardware
+
+.play scripts/leapgo.go /START_2 OMIT/,/END_2 OMIT/ HLleap
+
 * Tools
 
 - *go*build*
@@ -157,3 +167,20 @@ Verifica por erros não detectados por você no seu código.
 - _golang-book.com_
 
 .image assets/gopher.png
+
+* Beta Testers
+
+- *Go*1.3beta1*
+_http://tip.golang.org_
+
+- *Downloads*
+_http://code.google.com/p/go/wiki/Downloads_
+
+- *Release*Notes*
+_http://tip.golang.org/doc/go1.3_
+
+- *Issue*Tracker*
+_http://golang.org/issue/new_
+
+- *Oficial*Release*
+_1_de_Junho_de_2014_(Expected)_
