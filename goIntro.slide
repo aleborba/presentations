@@ -155,16 +155,18 @@ Varre todos os arquivos .go e refatora para o padrão da linguagem.
 - *goimports*
 Faz um update dos seus imports. Adiciona os que ainda não existem e tira os que não estão sendo usados.
 
-- *errcheck*
-Verifica por erros não detectados por você no seu código.
+- *golint*
+Verifica por erros de "boas práticas" no código.
 
 * Refs
 
 - _golang.org_
+- _golangbr.org_
 - _godoc.org_
 - _gopheracademy.com_
 - _goinggo.net_
 - _golang-book.com_
+- Programando com Go - Casa do Código
 
 .image assets/gopher.png
 
