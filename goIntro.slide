@@ -169,20 +169,3 @@ Verifica por erros de "boas práticas" no código.
 - Programando com Go - Casa do Código
 
 .image assets/gopher.png
-
-* Beta Testers
-
-- *Go*1.3beta1*
-_http://tip.golang.org_
-
-- *Downloads*
-_http://code.google.com/p/go/wiki/Downloads_
-
-- *Release*Notes*
-_http://tip.golang.org/doc/go1.3_
-
-- *Issue*Tracker*
-_http://golang.org/issue/new_
-
-- *Oficial*Release*
-_1_de_Junho_de_2014_(Expected)_
