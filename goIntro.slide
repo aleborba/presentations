@@ -3,12 +3,11 @@ Primeiros passos em Go
 Tags: Go, Golang, Baby Gophers
 
 Alê Borba
-Community Manager, Google
+Program Manager, Developer Relations at Google
 borba@google.com
-http://google.com/+AleBorba
-@ale_borba
+https://twitter.com/ale_borba
 
-http://plus.google.com/+DesenvolvedoresGoogle
+https://plus.google.com/+DesenvolvedoresGoogle
 
 * Agenda
 
@@ -41,9 +40,9 @@ http://plus.google.com/+DesenvolvedoresGoogle
 
 * História
 
-*2014*
+*2016*
 
-.image assets/grafico.png 450 800
+.image assets/grafico.png 525 800
 
 * Talk is cheap! Show me the code!
 
@@ -168,3 +167,9 @@ Verifica por erros de "boas práticas" no código.
 - Programando com Go - Casa do Código
 
 .image assets/gopher.png
+
+* GopherCon Brasil 2016
+
+- gopherconbr.org
+- 4, 5 e 6 de Novembro, 2016
+- Florianópolis
